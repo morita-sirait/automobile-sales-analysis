@@ -9,7 +9,7 @@ The repository contains data analysis project, showcasing my skills in Python, S
 # Using Python 
 In  jupyter notebook using the python programming language, the following are the results of data analysis from automobile sales data. 
 First we must import pandas library as pd. the pandas libarary use to anlysis and data manipulation
-![alt text](?raw=true)
+![alt text](https://github.com/morita-sirait/automobile-sales-analysis/blob/main/image/notebook_import%20pandas%20libraray.PNG?raw=true)
 
 second, we will import the data that has been entered into the notebook folder
 
