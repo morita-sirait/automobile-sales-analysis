@@ -1,0 +1,70 @@
+/* Files with the SQL extension cannot currently be downloaded from the Apex software in Oracle. 
+Therefore, I currently copy the query for SQL in notepad.
+*/
+
+-- show the all column of automobile_data
+select * 
+from automobile_data;
+
+-- show the description of each column in automobile_data
+desc automobile_data;
+
+-- show the total sales of automobile data
+select sum(sales) as "total sales"
+from automobile_data;
+
+-- total order quantity based on status
+select status, sum(quantityordered) as "Total  Order Quantity"
+from automobile_data
+group by  status;
+
+-- total order quantity based on product name and status
+select productline, status, sum(quantityordered) as "Total Order Quantity"
+from automobile_data
+group by productline, status;
+
+-- show the total completed order quantity based on country 
+select country, status, sum(quantityordered) as "Total Completed Order Quantity"
+from automobile_data
+where lower(status) = 'resolved'
+group by country, status;
+
+-- show the first day ordered and the last day order
+select min(orderdate) as "First Order", max(orderdate) as "Last Order"
+from automobile_data
+
+-- show the total sales based on month
+select to_char(orderdate, 'Month YYYY') as month, SUM(sales) as "Total Sales"
+from automobile_data
+group by to_char(orderdate, 'Month YYYY')
+
+-- show top selling product 
+select productline as prodcut_name, sum(sales) as total_order_quantity
+from automobile_data
+group by productline
+order by total_order_quantity desc
+
+-- show the average price of product
+select productline as "Product Name", avg(priceeach) AS "Average Price"
+FROM automobile_data
+group by productline;
+
+-- show top customer
+select customername as Customer_Name, sum(sales) as Total_Spent
+from automobile_data
+group by customername
+order by Total_Spent desc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
