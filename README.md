@@ -21,7 +21,7 @@ fourth, we need to import the seaborn and matplotlib library to start make stati
 ![alt text](https://github.com/morita-sirait/automobile-sales-analysis/blob/main/image/notebook_import%20seaborn%20and%20matplotlib%20library.PNG?raw=true)
 
 from the following line plot grafik, we can see the highest order quantity occur in 14 April 2020.
-![alt text](?raw=true)
+![alt text](https://github.com/morita-sirait/automobile-sales-analysis/blob/main/image/notebook_show%20grafik%20automobile%20sales%20trends.PNG?raw=true)
 
 next from the following hisplot grafik, we will see the distribution of automobile sales between 150-200. 
 ![alt text](https://github.com/morita-sirait/automobile-sales-analysis/blob/main/image/notebook_show%20grafik%20automobile%20sales%20distribution.PNG?raw=true)
@@ -32,6 +32,7 @@ Trucks and buses are the most ordered category.
 
 next from the following boxplot grafik, we know visualization of the distribution of each automobile price. 
 we can also see outliers as very different price in certain categories. 
+
 ![alt text](https://github.com/morita-sirait/automobile-sales-analysis/blob/main/image/notebook_show%20grafik%20distribution%20by%20price%20of%20automobile.PNG?raw=true)
 
 from the following bar plot grafik, we can determine what countries order the most. 
