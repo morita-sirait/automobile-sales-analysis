@@ -44,21 +44,29 @@ from the following bar plot grafik, we can determine what countries order the mo
 # Using SQL 
 Data processing using the Python programming language shown below was carried out using APEX software from Oracle. 
 the following is the syntax to view all columns of a table. there are 20 columns in automobile data. 
+![alt text](https://github.com/morita-sirait/automobile-sales-analysis/blob/main/image/sql_show%20all%20column%20of%20a%20table.PNG?raw=true)
 
 this is the syntax for displaying the structure of a table. 
 here we can see data type of column, length of data type, primary key, etc. 
+![alt text](https://github.com/morita-sirait/automobile-sales-analysis/blob/main/image/sql_show%20structure%20of%20column.PNG?raw=true)
 
 we can see the total sales of automobile 
+![alt text](https://github.com/morita-sirait/automobile-sales-analysis/blob/main/image/sql_total%20sales.PNG?raw=true)
 
 from the following syntax we know that the first day of automobile ordering is 6 January 2018 and the last day of automobile ordering is 31 May 2020. 
+![alt text](https://github.com/morita-sirait/automobile-sales-analysis/blob/main/image/sql_first%20and%20last%20day%20order.PNG?raw=true)
 
 we can see that best month sales is November 2019 
+![alt text](https://github.com/morita-sirait/automobile-sales-analysis/blob/main/image/sql_best%20month%20of%20sales.PNG?raw=true)
 
 and the top selling product is classic cars category
+![alt text](https://github.com/morita-sirait/automobile-sales-analysis/blob/main/image/sql_top%20selling%20product.PNG?raw=true)
 
 we can also know that the top customer with most purchases is Euro Shopping Chanel
+![alt text](https://github.com/morita-sirait/automobile-sales-analysis/blob/main/image/sql_top%20customer.PNG?raw=true)
 
 
 
 # Using Tableau 
+![alt text](https://github.com/morita-sirait/automobile-sales-analysis/blob/main/image/tableau_automobile%20dashboard.PNG?raw=true)
 
